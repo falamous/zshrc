@@ -72,6 +72,7 @@ function auto_completion() {
 
 function install_plugins() {
 	antigen bundle zsh-users/zsh-syntax-highlighting
+	antigen bundle zsh-users/zsh-autosuggestions
 }
 
 function set_opts() {
